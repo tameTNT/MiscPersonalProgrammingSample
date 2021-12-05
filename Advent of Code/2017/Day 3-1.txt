@@ -1,0 +1,13 @@
+my square = 347991
+sqrt(347991) = 589.5...
+589^2 = 346921
+346921 is 589/2=295th square in that diagonal
+so coordinates are 294,294 (if 1 is 0,0)
+
+347991-346921=1070
+
+295,-295 are coordinates of 346921+590=347511
+-185,-295 are coordinates of 347511+()
+
+|0--185|+|0--295|
+
