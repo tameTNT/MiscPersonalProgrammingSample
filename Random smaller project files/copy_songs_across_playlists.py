@@ -22,8 +22,8 @@ def return_playlist_by_uri(playlists, qu_type):
 
 
 print("Getting auth token...")
-token = util.prompt_for_user_token("lucahuelle", 'playlist-modify-public', client_id='***REMOVED***',
-                                   client_secret='***REMOVED***', redirect_uri='http://localhost/')
+token = util.prompt_for_user_token("lucahuelle", 'playlist-modify-public', client_id='',
+                                   client_secret='', redirect_uri='http://localhost/')
 sp = spotipy.Spotify(auth=token)
 
 user_playlists = sp.user_playlists("lucahuelle")["items"]
